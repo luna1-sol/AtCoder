@@ -1,0 +1,2 @@
+# このリポジトリの全ファイルを言語統計から除外
+* linguist-detectable=false
