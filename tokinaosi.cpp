@@ -50,6 +50,7 @@ const int dy[] = {1, 0, -1, 0}; //const int dy[] = {1, 0, -1, 0, 1, 1, -1, -1};
 template<class T>istream& operator>>(istream&i,vector<T>&v){rep(j,sz(v))i>>v[j];return i;}
 
 void solve() {
+    cout << "Hello World!" << endl;
 }
 
 int main() {

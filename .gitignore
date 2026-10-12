@@ -1,17 +1,29 @@
 # ---- 基本は全部無視 ----
 *
 
-# ---- フォルダは無視しない ----
+# ---- フォルダは無視しない（中身は下のルールで判定） ----
 !*/
 
-# ---- 残すファイル ----
+# ---- 残すファイル：ソースコード ----
 !*.cpp
 !*.hpp
+
+# ---- 残すファイル：リポジトリ直下 ----
 !.gitignore
 !README.md
+!LICENSE
+!run.sh
 
-# ---- 無視したいフォルダ ----
+# ---- 残すファイル：エディタ設定 ----
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+!.zed/tasks.json
+!.vscode/launch.json
+
+# ---- 無視したいフォルダ（!*/ より後に書く） ----
+.bin/
 ac-library/
+*.dSYM/
 
-# ---- Code Runner 一時ファイル ----
+# ---- Code Runner 一時ファイル（!*.cpp より後に書く） ----
 tempCodeRunnerFile*

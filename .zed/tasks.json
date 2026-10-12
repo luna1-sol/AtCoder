@@ -1,0 +1,12 @@
+[
+  {
+    "label": "C++: build & run",
+    "command": "\"$ZED_WORKTREE_ROOT/run.sh\" \"$ZED_FILE\"",
+    "reveal": "always"
+  },
+  {
+    "label": "C++: build & run (in.txt)",
+    "command": "\"$ZED_WORKTREE_ROOT/run.sh\" \"$ZED_FILE\" \"$ZED_DIRNAME/in.txt\"",
+    "reveal": "always"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++: debug (in.txt)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/.bin/debug.out",
+      "cwd": "${fileDirname}",
+      "stdio": ["${fileDirname}/in.txt", null, null],
+      "preLaunchTask": "C++: build (debug)"
+    },
+    {
+      "name": "C++: debug (Terminal)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/.bin/debug.out",
+      "cwd": "${fileDirname}",
+      "terminal": "integrated",
+      "preLaunchTask": "C++: build (debug)"
+    }
+  ]
+}
