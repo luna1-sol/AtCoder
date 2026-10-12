@@ -1,2 +1,2 @@
 # AtCoder Files
-使用環境 macOS Golden Gate
+動作環境：macOS Golden Gate / g++-16
